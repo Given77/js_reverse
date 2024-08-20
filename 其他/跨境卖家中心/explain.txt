@@ -1,0 +1,7 @@
+网址：https://seller.kuajingmaihuo.com/
+使用webpack
+var o = new e.a; 这句使用的时候要加new，不加会报错
+这行代码实际上是在创建e模块中导出的构造函数 a 的一个新实例。如果不使用new，JavaScript会认为 e.a 是一个函数调用，而不是一个构造函数，因此会出现错误。
+所以，确保在实例化对象时使用 new 关键字，这样你就可以正确地调用 e.a 的构造函数。
+
+webpack的自调用函数，进行导出时，导出的是加载器
